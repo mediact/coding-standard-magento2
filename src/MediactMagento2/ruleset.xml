@@ -34,7 +34,6 @@
         <exclude name="MEQP1.Security.Acl"/>
         <exclude name="MEQP1.Security.Superglobal"/>
         <exclude name="MEQP1.Classes.ObjectInstantiation"/>
-        <exclude name="MEQP1.Templates.XssTemplate"/>
         <exclude name="MEQP1.Stdlib.DateTime"/>
         <exclude name="MEQP1.SQL.MissedIndexes"/>
         <exclude name="MEQP1.SQL.SlowQuery"/>
