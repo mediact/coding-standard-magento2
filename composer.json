@@ -21,10 +21,8 @@
     }
   ],
   "require": {
-    "php": "^5.4.0 || ^7.0",
-    "mediact/coding-standard": "^1.0",
-    "squizlabs/php_codesniffer": "^2.0",
-    "magento/marketplace-eqp": "^1.0"
+    "magento/marketplace-eqp": "^1.0",
+    "mediact/coding-standard": "@stable"
   },
   "autoload": {
     "psr-0": {
