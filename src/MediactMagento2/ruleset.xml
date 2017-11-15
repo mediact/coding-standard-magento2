@@ -5,8 +5,8 @@
  * https://www.mediact.nl
  */
 -->
-<ruleset name="Mediact/Magento1">
-    <description>MediaCT coding standards for Magento1.</description>
+<ruleset name="Mediact/Magento2">
+    <description>MediaCT coding standards for Magento2.</description>
     <arg name="colors" />
     <arg name="extensions" value="php/PHP,phtml/PHP,js/JS,css/CSS" />
 
@@ -25,35 +25,6 @@
         <exclude name="Generic.PHP.Syntax"/>
     </rule>
 
-    <!-- Base rules on Magento Marketplace -->
-    <rule ref="../../../../magento/marketplace-eqp/MEQP1">
-        <exclude name="MEQP1.Classes"/>
-        <exclude name="MEQP1.PHP.PrivateClassMember"/>
-        <exclude name="MEQP1.Exceptions.DirectThrow"/>
-        <exclude name="MEQP1.PHP.Syntax"/>
-        <exclude name="MEQP1.Security.Acl"/>
-        <exclude name="MEQP1.Security.Superglobal"/>
-        <exclude name="MEQP1.Classes.ObjectInstantiation"/>
-        <exclude name="MEQP1.Stdlib.DateTime"/>
-        <exclude name="MEQP1.SQL.MissedIndexes"/>
-        <exclude name="MEQP1.SQL.SlowQuery"/>
-        <exclude name="MEQP1.Security.DiscouragedFunction" />
-        <exclude name="MEQP1.Performance.Loop" />
-        <exclude name="Generic.Functions.OpeningFunctionBraceBsdAllman" />
-        <exclude name="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
-    </rule>
-    <rule ref="../../../../magento/marketplace-eqp/MEQP2">
-        <exclude name="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
-        <exclude name="MEQP2.PHP.Syntax"/>
-        <exclude name="Generic.Arrays.DisallowShortArraySyntax" />
-        <exclude name="Generic.CodeAnalysis.UnusedFunctionParameter.Found"/>
-    </rule>
-
-    <rule ref="Squiz.PHP.CommentedOutCode">
-        <properties>
-            <property name="maxPercentage" value="80"/>
-        </properties>
-    </rule>
     <rule ref="Generic.Files.LineLength.TooLong">
         <exclude-pattern>*.phtml</exclude-pattern>
     </rule>
