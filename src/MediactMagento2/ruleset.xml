@@ -17,12 +17,7 @@
         <exclude name="MediactCommon.Php7.ReturnType" />
         <exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing" />
         <exclude name="PSR2.Methods.MethodDeclaration.Underscore" />
-        <exclude name="PSR2.Classes.PropertyDeclaration.Underscore" />
         <exclude name="Squiz.Commenting.FunctionComment.EmptyThrows" />
-        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning" />
-        <exclude name="Generic.Commenting.DocComment.TagValueIndent" />
-        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType" />
-        <exclude name="Generic.PHP.Syntax"/>
     </rule>
 
     <rule ref="Generic.Files.LineLength.TooLong">
