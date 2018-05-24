@@ -35,4 +35,7 @@
     <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall.NotAllowed">
         <exclude-pattern>*.phtml</exclude-pattern>
     </rule>
+    <rule ref="PSR2.Classes.PropertyDeclaration.Underscore">
+        <exclude-pattern>*.phtml</exclude-pattern>
+    </rule>
 </ruleset>
