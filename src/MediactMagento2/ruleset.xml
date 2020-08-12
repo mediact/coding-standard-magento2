@@ -29,9 +29,6 @@
     <rule ref="Squiz.WhiteSpace.ScopeClosingBrace">
         <exclude-pattern>*.phtml</exclude-pattern>
     </rule>
-    <rule ref="Squiz.WhiteSpace.ControlStructureSpacing">
-        <exclude-pattern>*.phtml</exclude-pattern>
-    </rule>
     <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall.NotAllowed">
         <exclude-pattern>*.phtml</exclude-pattern>
     </rule>
