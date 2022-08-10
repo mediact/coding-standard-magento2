@@ -4,6 +4,7 @@
   "type": "phpcs-sniffs",
   "homepage": "https://bitbucket.org/mediactbv/coding-standard-magento2",
   "license": "proprietary",
+  "abandoned": "mediact/coding-standard-magento2",
   "authors": [
     {
       "name": "MediaCT",
